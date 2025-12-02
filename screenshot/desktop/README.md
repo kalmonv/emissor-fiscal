@@ -1,92 +1,104 @@
-
 # 📸 Screenshots – Guarix (Versão Desktop – NW.js)
 
-## 1. Tela de login
+## 1. Login de autenticação de usuário
 
-![Tela de login](screenshot%201.png)
+![Login de autenticação de usuário](screenshot%201.png)
 
-Tela de autenticação do usuário, com seleção de empresa (quando aplicável) e acesso seguro ao sistema.
-
----
-
-## 2. Dashboard inicial
-
-![Dashboard inicial](screenshot%202.png)
-
-Visão geral do sistema após o login, com atalhos para emissão de notas, relatórios e módulos principais.
+Tela de autenticação do usuário, com campo de login/senha e acesso seguro ao sistema.
 
 ---
 
-## 3. Cadastro de clientes
+## 2. Seleção de empresa
 
-![Cadastro de clientes](screenshot%203.png)
+![Seleção de empresa](screenshot%202.png)
 
-Tela de gestão de clientes, incluindo dados fiscais, endereço e informações de contato para emissão de documentos fiscais.
-
----
-
-## 4. Cadastro de produtos/serviços
-
-![Cadastro de produtos](screenshot%204.png)
-
-Cadastro de produtos e serviços com informações fiscais (NCM, CFOP, CST/CSOSN etc.), facilitando a emissão de NF-e/NFC-e.
+Tela onde o usuário escolhe a empresa com a qual deseja trabalhar, quando possui mais de um CNPJ vinculado.
 
 ---
 
-## 5. Emissão de NF-e (modelo 55)
+## 3. Adicionar empresa via certificado digital (.pfx)
 
-![Emissão de NF-e](screenshot%205.png)
+![Adicionar empresa via certificado digital](screenshot%203.png)
 
-Formulário de emissão de **NF-e 55**, com campos de identificação, produtos, impostos e totais.
-
----
-
-## 6. Emissão de NFC-e (modelo 65)
-
-![Emissão de NFC-e](screenshot%206.png)
-
-Fluxo de emissão de **NFC-e 65** para vendas ao consumidor final, otimizado para pontos de venda.
+Cadastro de empresa a partir de certificado digital **.pfx** e senha.  
+A validação é feita diretamente na **SEFAZ**; se autorizado, o sistema cadastra a empresa ou concede acesso ao usuário.
 
 ---
 
-## 7. Consulta de notas emitidas
+## 4. Menu lateral
 
-![Consulta de notas](screenshot%207.png)
+![Menu lateral](screenshot%204.png)
 
-Listagem de NF-e/NFC-e emitidas, com filtros por período, cliente, status, série, número etc.
-
----
-
-## 8. Detalhes da NF-e / DANFE
-
-![Detalhes da NF-e](screenshot%208.png)
-
-Visualização dos detalhes da nota fiscal, com acesso ao XML, DANFE em PDF e ações como reenvio, impressão ou cancelamento.
+Visão do **menu lateral** principal, com os módulos e atalhos de navegação do sistema.
 
 ---
 
-## 9. Relatórios / Faturamento
+## 5. Emissão de NF-e/NFC-e – barra de pesquisa de produtos
 
-![Relatórios](screenshot%209.png)
+![Emissão de NF-e/NFC-e – pesquisa de produtos](screenshot%205.png)
 
-Relatórios de faturamento e/ou impostos esperados, com gráficos e consolidações por período (utilizando Chart.js).
-
----
-
-## 10. Caixa / Sangria
-
-![Caixa e sangria](screenshot%2010.png)
-
-Tela de controle de caixa, registros de vendas e **sangria de caixa**, auxiliando no controle financeiro diário.
+Tela de emissão de **NF-e/NFC-e** com destaque para a **barra de pesquisa de produtos**, agilizando a seleção de itens.
 
 ---
 
-## 11. Configurações avançadas
+## 6. Emissão de NF-e/NFC-e – barra de pesquisa de produtos
 
-![Configurações](screenshot%2011.png)
+![Emissão de NF-e/NFC-e – pesquisa de produtos](screenshot%206.png)
 
-Área de configurações do sistema, incluindo:
-- empresas vinculadas ao usuário;
-- parâmetros fiscais;
-- certificados digitais;
-- opções de envio automático de XML e logs.
+Continuação do fluxo de emissão de **NF-e/NFC-e**, mantendo a **pesquisa de produtos** como foco para composição da nota.
+
+---
+
+## 7. Seleção de destinatário (NF-e 55)
+
+![Seleção de destinatário](screenshot%207.png)
+
+Tela para **selecionar o destinatário**, etapa obrigatória para emissão de **NF-e modelo 55**, com dados fiscais do cliente.
+
+---
+
+## 8. Métodos de pagamento
+
+![Métodos de pagamento](screenshot%208.png)
+
+Configuração dos **métodos de pagamento** da nota fiscal, permitindo definir forma, condições e recebimento.
+
+---
+
+## 9. Métodos de pagamento
+
+![Métodos de pagamento](screenshot%209.png)
+
+Outra visão/etapa da tela de **métodos de pagamento**, detalhando como o valor da venda será quitado.
+
+---
+
+## 10. Lista de XMLs
+
+![Lista de XMLs](screenshot%2010.png)
+
+Listagem dos **XMLs de NF-e/NFC-e**, com filtros para pesquisa, status e organização das notas emitidas/recebidas.
+
+---
+
+## 11. Cadastro de produtos
+
+![Cadastro de produtos](screenshot%2011.png)
+
+Tela de **cadastro de produtos**, com campos para descrição, unidade, valores e informações fiscais (NCM, CFOP, CST/CSOSN etc.).
+
+---
+
+## 12. Visualização de XML sem manifesto de ciência
+
+![Visualização de XML sem manifesto de ciência](screenshot%2012.png)
+
+Visualização do **XML da NF-e** ainda **sem manifesto de ciência**, exibindo o conteúdo técnico do documento fiscal.
+
+---
+
+## 13. Visualização de XML com manifesto de ciência
+
+![Visualização de XML com manifesto de ciência](screenshot%2013.png)
+
+Visualização do **XML da NF-e com manifesto de ciência** já registrado, indicando o status de ciência/manifestação do destinatário.
